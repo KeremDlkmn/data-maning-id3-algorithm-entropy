@@ -124,6 +124,6 @@ def tripleFeatureGain(AttributeList,ClassList,A1,A2,A3,C1,C2,HS):
     print("{} {} = ".format("Weighted Average",A3),CalculateAttributeA3)
 
     HSX = (((AttributeA1Say/AttributeListTotal)*(CalculateAttributeA1)) + ((AttributeA2Say/AttributeListTotal)*(CalculateAttributeA2)) + ((AttributeA3Say/AttributeListTotal)*(CalculateAttributeA3)))
-    Sonuc = HS - HSX
+    result = HS - HSX
 
-    return Sonuc
+    return result
